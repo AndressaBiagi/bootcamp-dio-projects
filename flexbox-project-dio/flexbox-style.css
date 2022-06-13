@@ -1,0 +1,40 @@
+.jumbotron-fluid, h2 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+}
+section {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    
+}
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+}
+header {
+    background-color: black;
+    
+}
+.flex-sm-fill {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+#about h2{
+    font-size: 2.5rem;
+    color: black;
+    display: flex;
+    margin-bottom: 2rem;
+    
+}
+#about h2::before {
+    content: "";
+    height: 3.2rem;
+    width: 5px;
+    margin-right: 1rem;
+    background-color: black;
+    position: relative;
+}
