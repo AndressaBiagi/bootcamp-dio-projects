@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Josefin+Sans:wght@100;300&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ddaaaa;
+}
+
+h1, .instruction {
+    font-weight: bolder;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 2rem;
+    border: 2px solid #703451;
+    background-color: #ffcfd9;
+    color: #703451;
+    font-size: 16pt;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgb(118, 118, 118);
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+    margin-top: 2rem;
+}
+.container-footer {
+    font-size: 13px;
+    height: 2.3rem;
+    width: 30rem;
+    margin-top: 4rem;
+    display: flex;
+    box-shadow: 1px 1px 3px rgb(118, 118, 118);
+    background-color: #703451;
+    color: rgba(255, 255, 255, 0.4);
+    align-items: center;
+    justify-content: space-evenly;
+}

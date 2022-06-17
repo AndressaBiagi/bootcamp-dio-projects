@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Josefin+Sans:wght@100;300&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*font-family: 'Francois One', sans-serif;*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Francois One', sans-serif;
+    padding: 1rem;
+}
+#list {
+    margin-top: 2rem;
+}
+#task-input {
+    width: 18rem;
+    border: 2px solid #70345140;
+    font-weight: bolder;
+    
+}
+.btn {
+    border: 2px solid #703451;
+    background-color: #ffcfd9;
+    color: #703451;
+    font-size: 12pt;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgb(118, 118, 118);
+}
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+  
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+  
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+label {
+    margin-bottom: 0;
+}
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+    margin-bottom: 0;
+}
